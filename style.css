@@ -1,0 +1,192 @@
+nav{display: flex;
+    justify-content: center;
+background-color: aqua;
+padding: 5px;}
+nav ul{display: flex;
+gap: 20px;
+}
+nav ul li{font-size: 20px;
+list-style: none;}
+nav ul li a{text-decoration: none;}
+
+.logo{background-color: aquamarine;
+display: flex;
+justify-content: center;}
+.logo h1{font-size: 60px;}
+
+.section1{
+    background-color: antiquewhite;
+    padding: 45px;
+  
+}
+
+.section2{
+    justify-content: center;
+    display: flex;
+    gap: 180px;
+    background-color: antiquewhite;
+    padding-bottom: 13px;
+}
+
+.section2 .products{
+    background-color: aqua;
+    border-radius: 6px;
+    padding: 13px;
+    border: 6px;
+    border-color: black;
+    
+}
+
+.section0{background-image: url(bg.jpg);
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;}
+
+.section1 #para1{
+    font-family: 'Copperplate Gothic';
+    src: url('fonts/CopperplateGothic-Regular.woff2') format('woff2'),
+         url('fonts/CopperplateGothic-Regular.woff') format('woff'),
+         url('fonts/CopperplateGothic-Regular.ttf') format('truetype');
+    text-decoration: black;
+    font-style: bold;
+    font-size: xx-large;
+}
+
+
+
+.pricing-con{display: flex;
+gap: 40px;
+justify-content: center;}
+.pricing-con table{table-layout: fixed;
+border: 10px;
+font-size: xx-large;}
+
+.pricing-con{
+    padding: 13px;
+}
+
+
+
+.team{
+    justify-content: center;
+    display: flex;
+    gap: 400px;
+  
+}
+
+
+.team #pa1p{
+    text-decoration: underline;
+    text-decoration: dotted;
+    font-style: dark;
+}
+
+.pricing-con table, th, td {
+    border: 5px solid black;
+    padding: 30px;
+    background-color: yellow;
+  }
+
+ .head1{
+    padding: 56px;
+ }
+
+ .aboutus{
+    font-size: x-large;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: xx-large
+
+}
+
+#head1{
+    text-align: center;
+}
+  
+#head2{
+    text-align: center;
+}
+
+.footer{
+    background-color: black;
+    padding: 45px;
+}
+
+.footer #foot1{
+    text-decoration: aliceblue;
+}
+
+.buttons{
+    gap: 400px;
+}
+.pricing-con tr th button{border-radius: 10px;
+background-color: red;
+font-size: xx-large;}
+.socialcards{display: flex;
+border: 5px ;
+border-color: black;
+justify-content: center;
+background-color:antiquewhite;
+padding: 15px;
+margin: 0 15pxs;}
+
+.submitBox{
+    padding: 25px;
+    background-color: aquamarine;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    border-width: 4;
+}
+
+.contact{background-color: antiquewhite;
+padding: 10px;
+justify-content: center;}
+.contact h1{font-size: 50px;}
+.contact p1{font-size: xx-large;
+padding: 12px;}
+.socialcards{gap: 100px;}
+
+.submitBox .name{
+    background-color: antiquewhite;
+    padding-left: 39px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+
+.submitBox .email{
+    background-color: antiquewhite;
+    padding-left: 39px;
+    padding-top: 13px;
+    padding-right: 50px;
+}
+.submitBox .contact2{
+    background-color: antiquewhite;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-left: 13px;
+
+}
+.submit2a {
+    display: flex;
+    justify-content: center;
+   background-color: red;
+   color: white;
+   font-size: 25px;
+   border-radius: 9px;
+   
+}
+
+.submitdiv{
+ display: flex;
+ justify-content: center;
+ padding-top: 13px;
+ padding-bottom: 13px;
+ background-color: aquamarine;
+    
+}
